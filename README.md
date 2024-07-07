@@ -18,10 +18,9 @@ Welcome to the Face Emotion Recognition project! This repository contains a Pyth
 
 ## Project Structure
 
-- `models/`: Directory containing pre-trained models and scripts for model training.
-- `real_time_emotion_detection`: Python script for real-time emotion detection using webcam input.
-- `image_emotion_detection`: Python script for detecting emotions in static images.
-- `README.md`: This file, providing an overview of the project and instructions for usage.
+- `emotiondetector.json`: JSON file containing the configuration or parameters of the emotion detection model.
+- `realtimedetection.py`: Python script for real-time emotion detection using live video streams.
+- `trainmodel.ipynb`: Jupyter Notebook for training and evaluating the emotion detection model.
 
 
 ## Contributing
